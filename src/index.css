@@ -1,0 +1,144 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #141519;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background-color: #1c232d;
+  width: 300px;
+  height: 325px;
+  padding: 30px;
+  border-radius: 30px;
+}
+
+.image{
+  background-color: #262e38;
+  padding: 10px;
+  border-radius: 100%;
+  height: 4%;
+
+}
+
+.description {
+  font-size: 13px;
+  color: #757c86;
+}
+
+.ratings {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.ratings button{
+  border-radius: 100%;
+  margin-left: 0;
+  width: 15%;
+  height: 44px;
+  background: #262e38;
+  border: none;
+  color: #757c86;
+  cursor: pointer;
+}
+
+.ratings button:hover {
+  background-color: #7c8697;
+  color: white;
+}
+
+.ratings button:focus {
+  background-color: #fc7613;
+  color: white;
+
+}
+
+.submitButton {
+  margin-top: 30px;
+  }
+
+.submitButton button {
+  width: 300px;
+  height: 40px;
+  border-radius: 30px;
+  background-color: #fc7613;
+  color: white;
+  border: none;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+.submitButton button:hover {
+  background-color: white;
+  color: #fc7613;
+}
+
+
+
+.modalThankYou {
+  display: flex;
+  flex-direction: column;
+  background-color: #1c232d;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 325px;
+  padding: 30px;
+  border-radius: 30px;
+}
+
+
+.selectedRating {
+  background: #252e37;
+  color: #bf7138;
+  text-align: center;
+  padding: 5px;
+  border-radius: 30px;
+  width: 200px;
+  margin-top: 30px;
+}
+
+
+.titleThankYou{
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+.textThankYou {
+  display:flex; 
+  flex-direction: column;
+  align-items: center;
+  font-size: 13.2px;
+}
+
+.descriptionThankYou {
+  text-align: center;
+  margin-top: 0;
+}
+
