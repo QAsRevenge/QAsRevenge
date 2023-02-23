@@ -1,7 +1,7 @@
 import { useState } from "react"
 
 
-function App() {
+export default function App() {
 
 
   const [selectedRating, setSelectedRating] = useState();
@@ -53,4 +53,3 @@ function App() {
 
 }
 
-export default App
