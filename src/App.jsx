@@ -21,7 +21,7 @@ export default function App() {
 
 
   return isSubmitted ? (<main className="modalThankYou">
-    <img className="imageThankYou" src="./public/images/illustration-thank-you.svg" alt="" />
+    <img className="imageThankYou" src="/images/illustration-thank-you.svg" alt="" />
     <p className="selectedRating">You selected {selectedRating} out of 5</p>
     <section className="textThankYou">
       <h2 className="titleThankYou">Thank you!</h2>
@@ -32,7 +32,7 @@ export default function App() {
     :
   
     <form onSubmit={handleFormSubmit} className="modal">
-    <img className="image" src="./public/images/icon-star.svg" alt="" />
+    <img className="image" src="/images/icon-star.svg" alt="" />
     <section className="text">
       <h2 className="title">How did we do?</h2>
       <p className="description">Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
